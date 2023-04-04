@@ -1,0 +1,793 @@
+.bd-example-about {
+    height: calc(100vh - 5.3125rem);
+}
+
+.aboutDescSection {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.53), rgba(255, 255, 255, 0.2)), url('../images/AdobeStock_108067216.webp') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.aboutTitleDiv {
+    width: 100%;
+    width: 49%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aboutTitle {
+    line-height: 1.8;
+    text-align: center;
+    font-size: 3.4375rem;
+    letter-spacing: 0.03125rem;
+    color: #ffffff;
+    opacity: 1;
+    font-family: Oswald-Regular;
+}
+
+.aboutSubtitle {
+    text-align: center;
+    font-family: Oswald-Light;
+    font-size: 2.5rem;
+    line-height: 3.1255rem;
+    letter-spacing: 0.075rem;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.about_us_border:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin: -2px auto;
+    width: 45px;
+    height: 4px;
+    border-radius: 3px 0px;
+    background: #E38100;
+}
+
+.about_us_border {
+    font-family: FuturaPT-Medium;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.8px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-top: 70px;
+    text-align: center;
+    position: relative;
+}
+
+.about_us {
+    background: url('../images/main_images/aboutushexas.svg') no-repeat;
+    background-size: 80%;
+    opacity: 1;
+    width: 100%;
+    background-position: top 3rem left 7rem;
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 7rem;
+}
+
+.about_us p {
+    text-align: center;
+    font-family: FuturaPT-Book;
+    font-size: 16px;
+    line-height: 25px;
+    /* font: Book 24px/30px Futura PT; */
+    letter-spacing: 0.36px;
+    color: #000000;
+    opacity: 1;
+    font-weight: lighter;
+    padding-top: 40px;
+}
+
+.leadership_team {
+    margin-top: 3rem;
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    border-radius: 100px 0px;
+    opacity: 1;
+    height: 500px;
+}
+
+.our_team_border {
+    font-family: FuturaPT-Medium;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.8px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-top: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.our_team_border:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin: -2px auto;
+    width: 45px;
+    height: 4px;
+    border-radius: 3px 0px;
+    background: #00A0E3;
+}
+
+
+/* .leadership_team .overlay:hover {
+    opacity: 1;
+} */
+
+.Leadership_Img:hover .overlay {
+    opacity: 1;
+}
+
+.leadership_team .overlay {
+    position: absolute;
+    top: 76%;
+    bottom: 0;
+    /* left: 18.5%; */
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 300px;
+    transition: .1s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0px 0px 11px 11px;
+}
+
+.leadership_team .overlay h6 {
+    text-align: center;
+    font-family: FuturaPT-Book;
+    font-size: 16px;
+    line-height: 5px;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: lighter
+}
+
+.leadership_team .overlay h6:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60%;
+    margin: -2px auto;
+    width: 45%;
+    height: 1px;
+    border-radius: 3px 0px;
+    background: #ffffff;
+}
+
+.leadership_team .overlay p {
+    text-align: center;
+    font-family: FuturaPT-Book;
+    font-size: 11px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: lighter;
+}
+
+.leadership_team .overlay .social-link-team {
+    margin-bottom: 0;
+    float: right;
+    position: relative;
+    bottom: 60px;
+    left: 15px;
+}
+
+.leadership_team .overlay .social-link-team li {
+    display: inline-block;
+    margin-right: 0px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background: #00aeef;
+}
+
+.leadership_team .overlay .social-link-team li a {
+    display: block;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.leadership_team .overlay .social-link-team li a i {
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.leadership_team .overlay .social-link-team li a i:hover {
+    color: #ffffff;
+}
+
+.leadership_team .Leadership_Img img {
+    width: 300px;
+    max-width: 100%;
+}
+
+.leadership_team .Leadership_Img {
+    margin-bottom: 20px;
+}
+
+.our_Partners_border {
+    font-family: FuturaPT-Medium;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.8px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.our_Partners_border:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin: -2px auto;
+    width: 45px;
+    height: 4px;
+    border-radius: 3px 0px;
+    background: #98D93B;
+}
+
+.Our_partners {
+    margin-top: 1rem;
+}
+
+.Our_partners .Partner_img {
+    padding: 10px 10px;
+}
+
+.Our_partners .Partner_img img {
+    margin-bottom: 40px;
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.Our_partners .Partner_img_Div1:hover,
+.Our_partners .Partner_img_Div2:hover,
+.Our_partners .Partner_img_Div3:hover {
+    border-radius: 4px;
+    box-shadow: 0 25px 29px rgba(63, 78, 100, 0.15);
+    transition: all 0.3s linear;
+}
+
+.Our_partners .PartnerComman {
+    background: #fbfbfd;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+.Our_partners .Partner_img .active {
+    background: #fdfdfd;
+    border: 2px solid #ef571a;
+    border-radius: 4px;
+    box-shadow: 0 25px 29px rgba(63, 78, 100, 0.15);
+}
+
+.Our_partners .Partner_img .active:hover {
+    background: #ffffff;
+}
+
+.Our_partners .Partner_img .Partner_img_Div1:hover {
+    border: 2px solid #0099d8;
+}
+
+.Our_partners .Partner_img .Partner_img_Div2:hover {
+    border: 2px solid#77b900;
+}
+
+.Our_partners .Partner_img .Partner_img_Div3:hover {
+    border: 2px solid#e47825;
+}
+
+
+/* Grow */
+
+.hvr-grow {
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.technology-stack {
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border-radius: 0px 100px;
+    opacity: 1;
+}
+
+.tech_bg {
+    background-image: url('../images/main_images/Technologyhexas.svg');
+    background-repeat: no-repeat;
+    background-position: top 16% left 50%;
+    background-size: 60%;
+    margin-top: 3rem;
+}
+
+.tech_bg p {
+    font-family: FuturaPT-Book;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: lighter;
+    width: 90%;
+    margin: 5rem auto 0rem;
+}
+
+.technology_stack_border {
+    font-family: FuturaPT-Medium;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.8px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.technology_stack_border:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin: -2px auto;
+    width: 45px;
+    height: 4px;
+    border-radius: 3px 0px;
+    background: #00A0E3;
+}
+
+.technology-stack span {
+    opacity: 0. !important;
+    text-align: center;
+    letter-spacing: 0;
+    font-family: FuturaPT-Book;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: normal;
+    margin-top: 2rem;
+    color: #333333;
+    cursor: pointer;
+    /* padding-top:20rem; */
+}
+
+.technology-stack span:hover {
+    opacity: 1!important;
+    color: normal;
+}
+
+.technology-stack .technology_img1 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    background: url(../images/th\ \(6\).jfif) no-repeat;
+    /* background-image: url("C:\AIS_Company_Website\Images\th.jfif"); */
+    opacity: 1;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img2 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    /* background: url(../images/main_images/Machine\ Learning.svg) no-repeat; */
+    background: url(../Images/th\ \(1\).jfif) no-repeat;
+    opacity: 1;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img3 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    background: url(../images/th\ \(5\).jfif) no-repeat;
+    
+    opacity: 1;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img4 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    background: url(../images/th\ \(7\).jfif) no-repeat;
+    opacity: 1;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img5 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    background: url(../images/main_images/NET.svg) no-repeat;
+    opacity: 0.5;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    /* margin-left: 3rem; */
+    /* background-size: 83% 60%; */
+}
+
+.technology-stack .technology_img6 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    background: url(../images/main_images/Networking.svg) no-repeat;
+    opacity: 0.5;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img7 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    background: url(../images/main_images/MEAN.svg) no-repeat;
+    opacity: 0.5;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    width: 15rem;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img8 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    background: url(../images/main_images/Java.svg) no-repeat;
+    opacity: 0.5;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img9 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    background: url(../images/main_images/Deep\ Learning.svg) no-repeat;
+    opacity: 0.5;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img10 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    background: url(../images/main_images/RPA.svg) no-repeat;
+    opacity: 0.5;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img11 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    background: url(../images/main_images/AWS.svg) no-repeat;
+    opacity: 0.5;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img12 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    background: url(../images/main_images/UI-UX\ Design.svg) no-repeat;
+    opacity: 0.5;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img13 {
+    -webkit-transition: all .5s ease-in-out;
+    cursor: pointer;
+    background: url(../images/main_images/Tableau\ Software.svg) no-repeat;
+    opacity: 0.5;
+    background-position: center center;
+    max-width: 100%;
+    height: 9rem;
+    background-size: 83% 60%;
+}
+/* 
+.technology-stack .technology_img1:hover {
+    background: url(../images/main_images/Android-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    /* -webkit-transition: all .5s ease-in-out; */
+    /* opacity: 0.7; */
+    background-size: 83% 60%;
+} */
+
+/* .technology-stack .technology_img2:hover {
+    background: url(../images/main_images/Machine\ Learning-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: 1;
+    background-size: 83% 60%;
+} */
+
+/* .technology-stack .technology_img3:hover {
+    background: url(../images/main_images/Angular-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: 1;
+    background-size: 83% 60%;
+} */
+
+/* .technology-stack .technology_img4:hover {
+    background: url(../images/main_images/Python-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: 1;
+    background-size: 83% 60%;
+} */
+
+.technology-stack .technology_img5:hover {
+    background: url(../images/main_images/NET-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: 1;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img6:hover {
+    background: url(../images/main_images/Networking-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: 1;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img7:hover {
+    background: url(../images/main_images/MEAN-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: 1;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img8:hover {
+    background: url(../images/main_images/Java-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: 1;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img9:hover {
+    background: url(../images/main_images/Deep\ Learning-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: 1;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img10:hover {
+    background: url(../images/main_images/rap-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: 1;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img11:hover {
+    background: url(../images/main_images/aws-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: 1;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img12:hover {
+    background: url(../images/main_images/UI-UX\ Design-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: 1;
+    background-size: 83% 60%;
+}
+
+.technology-stack .technology_img13:hover {
+    background: url(../images/main_images/Tableau\ Software-c.svg) no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: 1;
+    background-size: 83% 60%;
+}
+
+[class ^="technology_img"] {
+    margin: 0 auto;
+}
+
+@media(max-width: 575px) {
+    .bd-example-about {
+        height: calc(50vh - 5.625rem);
+        margin-top: 56px;
+    }
+    .aboutTitleDiv {
+        width: 90%;
+        padding-top: 1rem;
+    }
+    .aboutSubtitle {
+        line-height: 2.5rem;
+    }
+    .aboutDescSection {
+        max-width: 100%;
+        background-size: 100% 100%;
+        height: 150%;
+    }
+    .about_us_border {
+        margin-top: 100px;
+    }
+    .Our_partners {
+        margin-top: 22rem;
+    }
+    .Our_partners .Partner_img {
+        margin-bottom: 50px;
+    }
+    .tech_bg {
+        background-position: top 6% left 0%;
+        background-size: 100%;
+        margin-top: 6rem;
+    }
+    .technology-stack .row {
+        padding-top: 0rem;
+    }
+    .leadership_team .overlay {
+        top: 69%;
+        border-radius: 0px -2px -2px 0px;
+        opacity: 1!important;
+        width: 300px;
+        /* left: 50%;
+        transform: translate(-50%, 0%); */
+    }
+    .leadership_team .overlay h6:after {
+        top: 46%;
+    }
+    .leadership_team .overlay .social-link-team {
+        left: -6.5rem;
+        top: -1.9rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .bd-example-about {
+        height: calc(60vh - 5.625rem);
+    }
+    .aboutDescSection {
+        max-width: 100%;
+        background-size: 100% 100%;
+        height: 150%;
+    }
+    .aboutTitleDiv {
+        padding-top: 3rem;
+        width: 80%;
+    }
+    .about_us_border {
+        margin-top: 100px;
+    }
+    .Our_partners {
+        margin-top: 20rem;
+    }
+    .tech_bg {
+        background-position: top 6% left 20%;
+        background-size: 95%;
+        margin-top: 6rem;
+    }
+    .leadership_team .overlay {
+        top: 76%;
+        bottom: 0;
+        /* left: 22.5%; */
+        width: 300px;
+        opacity: 1;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    .bd-example-about {
+        height: calc(60vh - 5.625rem);
+    }
+    .aboutDescSection {
+        background-size: 100% 100%;
+        width: 100%;
+        height: 150%;
+        position: relative;
+    }
+    .about_us_border {
+        margin-top: 100px;
+    }
+    .aboutTitleDiv {
+        padding-top: 3rem;
+    }
+    .tech_bg {
+        background-position: top 6% left 20%;
+        background-size: 82%;
+        margin-top: 0rem;
+    }
+    .leadership_team {
+        margin-top: 0rem;
+    }
+    .leadership_team .overlay {
+        top: 76%;
+        width: 300px;
+        transition: .1s ease;
+        opacity: 1;
+        /* left: 5%; */
+    }
+    .leadership_team .overlay p {
+        line-height: 30px;
+    }
+}
+
+.Leadership_Img {
+    display: flex;
+    justify-content: center;
+}
